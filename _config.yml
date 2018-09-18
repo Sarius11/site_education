@@ -1,6 +1,6 @@
 ---
 title: Education
-timezone: UTC
+timezone: Europe/Budapest
 collections:
   posts:
     title: Posts
@@ -9,9 +9,9 @@ collections:
     title: Uploads
     output: true
 email: youremailaddress@gmail.com
-description: Cloud4est
+description: Cloud4est Education site
 baseurl: "/site_education"
-url: ''
+url: 
 tiles-source: posts
 tiles-count: 3
 featured-image-source: 
