@@ -1,5 +1,5 @@
 ---
-title: Web
+title: 'Newest #web post'
 date: 2016-11-26 01:00:00 +01:00
 description: Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet.
   Mauris eleifend fringilla nullam aenean mi ligula.
