@@ -10,19 +10,19 @@ collections:
     output: true
 email: youremailaddress@gmail.com
 description: Cloud4est education site
-baseurl:
+baseurl: 
 url: https://education.cloud4est.com
 tiles-source: posts
 tiles-count: 3
-featured-image-source:
-500px_url:
-facebook_url:
+featured-image-source: 
+500px_url: 
+facebook_url: 
 github_url: https://github.com/Cloud4est/
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-pinterest_url:
-slack_url:
-twitter_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url: 
+slack_url: 
+twitter_url: 
 markdown: kramdown
