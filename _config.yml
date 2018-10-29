@@ -10,8 +10,8 @@ collections:
     output: true
 email: youremailaddress@gmail.com
 description: Cloud4est education site
-baseurl: "/site_education"
-url:
+baseurl:
+url: https://education.cloud4est.com
 tiles-source: posts
 tiles-count: 3
 featured-image-source:
