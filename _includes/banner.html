@@ -1,10 +1,12 @@
 <!-- Banner -->
+{% capture title_first %}{{ page.title | truncatewords: 1, "" }}{% endcapture %}
+{% capture title_last %}{{ page.title | remove: title_first }}{% endcapture %}
 <section id="banner">
 	<div class="inner">
-		<h2>{{ site.title }}</h2>
-		<p>{{ site.description }}</p>
+		<h2 class="title">{{ title_first | upcase }}<strong>{{ title_last | upcase }}</strong></h2>
+		<p>{{ page.description }}</p>
 		<ul class="actions">
-			<li><a href="#" class="button special">Activate</a></li>
+			<li><a href="#" class="button special">{% if page.lang == "hu" %}Használat{% else %}Usage{% endif %}</a></li>
 		</ul>
 	</div>
 	<a href="#one" class="more scrolly">Learn More</a>
