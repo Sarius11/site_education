@@ -8,18 +8,36 @@ collections:
   pages:
     title: Pages
     output: true
+  authors:
+    title: Authors
+    output: true
+    permalink: "/authors/:path/"
+  topics:
+    title: Topics
+    output: true
   uploads:
     title: Uploads
     output: true
+    permalink: "/topics/:path/"
   defaults:
   - scope:
       type: posts
     values:
       layout: post
   - scope:
-      path: pages
+      path: _pages
     values:
       layout: page
+  - scope:
+      type: authors
+    values:
+      layout: page
+      type: author
+  - scope:
+      type: topics
+    values:
+      layout: page
+      type: topic
 email: youremailaddress@gmail.com
 description: Cloud4est education site
 baseurl:
