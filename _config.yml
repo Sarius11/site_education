@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    permalink: "/post/:path/"
   pages:
     title: Pages
     output: true
@@ -12,47 +13,58 @@ collections:
     title: Authors
     output: true
     permalink: "/authors/:path/"
-  topics:
-    title: Topics
+  categories:
+    title: Categories
     output: true
+    permalink: "/categories/:path/"
   uploads:
     title: Uploads
-    output: true
-    permalink: "/topics/:path/"
-  defaults:
-  - scope:
-      type: posts
-    values:
-      layout: post
-  - scope:
-      path: _pages
-    values:
-      layout: page
-  - scope:
-      type: authors
-    values:
-      layout: page
-      type: author
-  - scope:
-      type: topics
-    values:
-      layout: page
-      type: topic
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: authors
+  values:
+    layout: page
+    type: author
+- scope:
+    path: ''
+    type: categories
+  values:
+    layout: page
+    type: category
 email: youremailaddress@gmail.com
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
 description: Cloud4est education site
 baseurl:
 url: https://education.cloud4est.com
 tiles-source: posts
 tiles-count: 3
-featured-image-source:
-500px_url:
-facebook_url:
+logo: "/assets/images/CD4ST_logo.svg"
+social:
+  links:
+  - https://www.facebook.com/CD4ST
+  - https://twitter.com/CD4ST
+  - https://www.instagram.com/cloud4st/
+  - https://www.youtube.com/channel/UC1aBUmUZTGBWwj5N9ktfx7w
+  - https://github.com/Cloud4est/
+  - https://www.linkedin.com/company/cloud4est/
+facebook_url: https://www.facebook.com/CD4ST
 github_url: https://github.com/Cloud4est/
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-pinterest_url:
-slack_url:
-twitter_url:
+instagram_url: https://www.instagram.com/cloud4st/
+linkedin_url: https://www.linkedin.com/company/cloud4est/
+twitter_url: https://twitter.com/CD4ST
+youtube_url: https://www.youtube.com/channel/UC1aBUmUZTGBWwj5N9ktfx7w
 markdown: kramdown
