@@ -2,13 +2,6 @@
 title: Education
 timezone: Europe/Budapest
 collections:
-  posts:
-    title: Posts
-    output: true
-    permalink: "/post/:path/"
-  pages:
-    title: Pages
-    output: true
   authors:
     title: Authors
     output: true
@@ -17,6 +10,12 @@ collections:
     title: Categories
     output: true
     permalink: "/categories/:path/"
+  pages:
+    title: Pages
+    output: true
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: false
@@ -48,7 +47,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 description: Cloud4est education site
-baseurl:
+baseurl: 
 url: https://education.cloud4est.com
 tiles-source: posts
 tiles-count: 3
