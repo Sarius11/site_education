@@ -29,9 +29,13 @@ Weboldalkészítés mellett ezek a technológiák nagyon sok területen használ
 
 ## Hogy néz ki?
 
-Így: ![download.jpeg](/uploads/download.jpeg)
+Így: 
 
-Igazából ő az: ![logo-2x.png](/uploads/logo-2x.png)
+![download.jpeg](/uploads/download.jpeg)
+
+Igazából ő az: 
+
+![logo-2x.png](/uploads/logo-2x.png)
 
 > (ha ha)
 
