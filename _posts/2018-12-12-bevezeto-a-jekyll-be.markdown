@@ -3,9 +3,10 @@ title: Bevezető a Jekyll-be
 date: 2018-12-12 17:04:00 +01:00
 lang: hu
 image: "/uploads/logo-2x.png"
-description: 
-author: 
-topic: 
+description:
+author:
+topic:
+course: jekyll-intro
 ---
 
 ## Mi a Jekyll?
@@ -33,17 +34,13 @@ Weboldalkészítés mellett ezek a technológiák nagyon sok területen használ
 
 ## Hogy néz ki?
 
-Így: 
-
-![download.jpeg](/uploads/download.jpeg)
-
-Igazából ő az: 
-
-![logo-2x.png](/uploads/logo-2x.png)
+| Így: | Igazából ő az: |
+| ---- | ---- |
+| ![Dr. Jekyll](/uploads/download.jpeg) | ![Jekyll](/uploads/logo-2x.png) |
 
 > (ha ha)
 
-Jekyllben történő weboldalkészítésnél inkább a weboldal struktúráját kell átlátni, mivel egészen komplex felületekig is el lehet jutni, ha kihasználjuk a szotftver által adott lehetőségeket. Mi azonban először a kisebb elemektől indulunk el, és ezeket a funkciókat fedezzük fel. 
+Jekyllben történő weboldalkészítésnél inkább a weboldal struktúráját kell átlátni, mivel egészen komplex felületekig is el lehet jutni, ha kihasználjuk a szotftver által adott lehetőségeket. Mi azonban először a kisebb elemektől indulunk el, és ezeket a funkciókat fedezzük fel.
 
 A Jekyll a tartalom sokféle elrendezését teszi lehetővé.
 
