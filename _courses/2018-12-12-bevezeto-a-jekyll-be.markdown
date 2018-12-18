@@ -3,9 +3,9 @@ title: Bevezető a Jekyll-be
 date: 2018-12-12 17:04:00 +01:00
 lang: hu
 image: "/uploads/logo-2x.png"
-description:
+description: 
 author: Schelb Arnold
-topic:
+topic: 
 course: jekyll-intro
 is-featured: true
 ---
