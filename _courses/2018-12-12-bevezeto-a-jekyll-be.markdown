@@ -3,10 +3,11 @@ title: Bevezető a Jekyll-be
 date: 2018-12-12 17:04:00 +01:00
 lang: hu
 image: "/uploads/logo-2x.png"
-description: 
-author: 
-topic: 
+description:
+author: Schelb Arnold
+topic:
 course: jekyll-intro
+is-featured: true
 ---
 
 ## Mi a Jekyll?
@@ -20,7 +21,7 @@ Egy statikus weboldal generátor, amely:
 
 ## Miért használjam?
 
-A Jekyll alapvetően nem igényli különböző programozási nyelvek ismeretét, web standardekre épül, amiket Jekyll nélkül is teljes mértékben használhatunk.
+A Jekyll -más, hagyományos tartalomkezelő rendszerekkel ellentétben- nem igényli különböző programozási nyelvek ismeretét ahhoz hogy testreszabjuk oldalunkat / témánkat. Web standardekre épül, amiket Jekyll nélkül is teljes mértékben használhatunk.
 
 Ezáltal a megszerzett HTML, CSS, vagy JavaScript ismereteket bármilyen környezetben fel tudjuk használni, semmilyen esetben sem vesznek kárba.
 
@@ -34,11 +35,11 @@ Weboldalkészítés mellett ezek a technológiák nagyon sok területen használ
 
 ## Hogy néz ki?
 
-| Így: | Igazából ő az: |
-| ---- | ---- |
-| ![Dr. Jekyll](/uploads/download.jpeg) | ![Jekyll](/uploads/logo-2x.png) |
+Így:
 
-> (ha ha)
+![Dr. Jekyll](/uploads/download.jpeg)
+
+> Nem, ő Dr.Jekyll
 
 Jekyllben történő weboldalkészítésnél inkább a weboldal struktúráját kell átlátni, mivel egészen komplex felületekig is el lehet jutni, ha kihasználjuk a szotftver által adott lehetőségeket. Mi azonban először a kisebb elemektől indulunk el, és ezeket a funkciókat fedezzük fel.
 
@@ -60,4 +61,4 @@ Másrészt a felhasználó szempontjából:
 * A különböző tartalmakat más helyen találod
 * Egy adott kategóriában a tartalom folyamatosan bővülhet
 
-> Így a friss információ könnyen követhető.
+> Ezzel a friss információ könnyen követhető.

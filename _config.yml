@@ -16,6 +16,10 @@ collections:
   posts:
     title: Posts
     output: true
+  courses:
+    title: Courses
+    output: true
+    permalink: "/courses/:path/"
   uploads:
     title: Uploads
     output: false
@@ -23,6 +27,11 @@ defaults:
 - scope:
     path: ''
     type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: courses
   values:
     layout: post
 - scope:
@@ -36,6 +45,7 @@ defaults:
   values:
     layout: page
     type: author
+    permalink: "/author/:path/"
 - scope:
     path: ''
     type: categories
@@ -43,11 +53,12 @@ defaults:
     layout: page
     type: category
 email: youremailaddress@gmail.com
+permalink: pretty
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 description: Cloud4est education site
-baseurl: 
+baseurl:
 url: https://education.cloud4est.com
 tiles-source: posts
 tiles-count: 3

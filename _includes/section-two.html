@@ -1,6 +1,6 @@
 <section id="two" class="wrapper alt style2">
-{% assign sections = site.posts | where:"lang",page.lang | sort:"date" %}
-	{% for post in sections reversed %}
+{% assign featured_courses = site.courses | where:"lang",page.lang | sort:"date" | where:"is-featured",true %}
+	{% for post in featured_courses reversed %}
 
 		<section class="spotlight">
 			<div class="image">{% if post.image %}<img src="{{ post.image }}" alt="" />{% endif %}</div>
@@ -9,7 +9,8 @@
 				<h2>{{ post.title }}</h2>
 				<p>{{ post.description | truncatewords: 25 }}</p>
 			</a>
-				<div><p>{{ post.date | date: "%Y.%m.%d" }} - <b>{{ post.author }}</b></p></div>
+			{% assign author = site.authors | where:author.title,post.author %}
+				<div><p>{{ post.date | date: "%Y.%m.%d" }} - <a href="{{ post.author | slugify: "latin" | prepend: "/author/" }}"><b>{{ post.author }}</b></a></p></div>
 			</div>
 		</section>
 
