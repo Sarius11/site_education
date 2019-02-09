@@ -52,13 +52,13 @@ defaults:
   values:
     layout: page
     type: category
-email: youremailaddress@gmail.com
+email: nestgrouphu@gmail.com
 permalink: pretty
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 description: Cloud4est education site
-baseurl: 
+baseurl:
 url: https://education.cloud4est.com
 tiles-source: posts
 tiles-count: 3
